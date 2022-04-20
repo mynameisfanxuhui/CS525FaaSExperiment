@@ -52,6 +52,7 @@ multiMediaAverageWarmTime = mean(warm_execution_time)
 # plt.hist([warm_execution_time, cold_execution_time], bins, label=['warm_execution_time', 'cold_execution_time'])
 # plt.title(appName)
 # plt.legend(loc='upper right')
+# plt.ylabel("Execution Time (Seconds)")
 # plt.show()
 
 
@@ -71,6 +72,6 @@ plt.bar(keys, values, color='maroon',
         width=0.4)
 
 plt.xlabel("type")
-plt.ylabel("Execution Time")
+plt.ylabel("Execution Time (Seconds)")
 plt.title("Different type of application's execution time")
 plt.show()
