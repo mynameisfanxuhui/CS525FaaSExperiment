@@ -3,7 +3,11 @@ import csv
 def getDataDict():
     #{appName: {memorySize: {coldTimeList:[], warmTimeList:[]}}}
     dataDict = {}
-    applicationList = ["dynamic_html", "thumbnailer_aws", "uploader_aws", "compression_aws"]
+    applicationList = ["awsNewRes/image_recognition_aws", "awsNewRes/graph_bfs_aws",
+                       "awsNewRes/thumbnailer_aws", "awsNewRes/uploader_aws", "awsNewRes/compressor_aws",
+                       "azureNewRes/image_recognition_azure", "azureNewRes/graph_bfs_azure",
+                       "azureNewRes/thumbnailer_azure", "azureNewRes/uploader_azure", "azureNewRes/compressor_azure"
+    ]
     for appName in applicationList:
         currentDataDict = {}
         # opening the CSV file
