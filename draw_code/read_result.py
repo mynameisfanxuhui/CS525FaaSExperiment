@@ -6,7 +6,7 @@ def getDataDict():
     applicationList = ["awsNewRes/image_recognition_aws", "awsNewRes/graph_bfs_aws",
                        "awsNewRes/thumbnailer_aws", "awsNewRes/uploader_aws", "awsNewRes/compressor_aws",
                        "azureNewRes/image_recognition_azure", "azureNewRes/graph_bfs_azure",
-                       "azureNewRes/thumbnailer_azure", "azureNewRes/uploader_azure", "azureNewRes/compressor_azure"
+                       "azureNewRes/thumbnailer_azure", "azureNewRes/uploader_azure", "azureNewRes/compression_azure"
     ]
     for appName in applicationList:
         currentDataDict = {}
